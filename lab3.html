@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<head>
+    <title>Rock-Paper-Scissors</title>
+    <link rel="stylesheet" href="lab3.css">
+</head>
+<body>
+    <header id="header-footer">
+        <h1>Lab 3 - Rock Paper Scissors</h1>
+    </header>
+
+    <nav id="nav-bar">
+        <ul>
+            <li><a href="https://www.wikihow.com/Play-Rock,-Paper,-Scissors">Instructions</a></li>
+            <li><a href="https://www.youtube.com/watch?v=2dsHuU10udY&t=31s&ab_channel=TripleSGames">Tutorial</a></li>
+            <li><a href="https://wrpsa.com/the-official-history-of-rock-paper-scissors/">History</a></li>
+        </ul>
+    </nav>
+
+    <main id="main-container">
+        <section id="main-content">
+            <h2>Choose something from the following</h2>
+            <form id="rps-form">
+                <label for="name">Name:</label>
+                <input type="text" id="name" name="name" required>
+
+                <label for="choice">Your choice:</label>
+                <select id="choice" name="choice">
+                    <option value="rock">Rock</option>
+                    <option value="paper">Paper</option>
+                    <option value="scissors">Scissors</option>
+                </select>
+                <br>
+                <button type="submit" id="submit-btn">Submit</button>
+            </form>
+        </section>
+
+        <aside id="sidebar">
+            <h3>Rules</h3>
+            <p><strong>Choose between Rock Paper and Scissors</strong></p>
+            <ul>
+                <li>Rock beats scissors</li>
+                <li>Scissors beats paper</li>
+                <li>Paper beats rock</li>
+            </ul>
+        </aside>
+    </main>
+
+    <footer id="footer">
+        This is a footer.
